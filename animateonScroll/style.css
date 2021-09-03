@@ -13,8 +13,6 @@ body
     justify-content: flex-start;
     align-items: center;
 }
-
-
 .container>div
 {
     margin-top: 350px;
@@ -29,3 +27,24 @@ body
     -webkit-box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.45); 
     box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.45);
 }
+.price
+{
+    color: white;
+    font-size: 2.8em;
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+}
+.iphone
+{
+    position: fixed;
+    left: 7%;
+    top: 30%;
+}
+.iphone>img
+{
+    width: 300px;
+}
+
