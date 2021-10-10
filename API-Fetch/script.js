@@ -5,7 +5,7 @@ $(function()
     {
         const city = $("#city").val();
         $.ajax({
-            url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=[IHR API-KEY]",
+            url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=3aed87687d2cbd66ef4740725d5b272b",
             dataType: "text", //what we expect from server
             success: function(response)
             {
